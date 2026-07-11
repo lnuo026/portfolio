@@ -21,7 +21,7 @@ jobs:
             --instance-ids "${{ secrets.EC2_INSTANCE_ID }}" \
             --document-name "AWS-RunShellScript" \
             --comment "Deploy portfolio from GitHub Actions" \
-            --parameters '{"commands":["set -e","if [ ! -d /home/ubuntu/portfolio ]; then git clone https://github.com/lnuo026/portfolio.git /home/ubuntu/portfolio; fi","cd /home/ubuntu/portfolio","git pull","npm install","npm run build","sudo mkdir -p /var/www/lnuo.me","sudo cp -r dist/* /var/www/lnuo.me/"]}' \
+            --parameters '{"commands":["set -e","if [ ! -d /home/ubuntu/portfolio ]; then git clone https://github.com/lnuo026/portfolio.git /home/ubuntu/portfolio; fi","cd /home/ubuntu/portfolio","git pull","if ! command -v npm >/dev/null 2>&1; then curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -; sudo apt-get install -y nodejs; fi","npm install","npm run build","sudo mkdir -p /var/www/lnuo.me","sudo cp -r dist/* /var/www/lnuo.me/"]}' \
             --query "Command.CommandId" \
             --output text)
 
