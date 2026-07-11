@@ -13,7 +13,7 @@ export default function Hero() {
         with hands-on detours into Android security, reverse engineering, and AI
         agents. Three years managing retail operations before this adds a business
         and user-first lens most engineers don&rsquo;t start with.
-      </p>
+      </p> 
       <div className="mt-8 flex flex-wrap items-center gap-3">
         <a
           href="#projects"
