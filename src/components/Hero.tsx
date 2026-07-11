@@ -22,13 +22,6 @@ export default function Hero() {
           View Projects
         </a>
         <a
-          href="/Nuona-Liang-CV.docx"
-          download
-          className="rounded-full border border-[var(--border)] px-5 py-2.5 text-sm font-medium text-[var(--text-h)] transition-colors hover:border-[var(--accent)] hover:text-[var(--accent)]"
-        >
-          Download Résumé
-        </a>
-        <a
           href="https://github.com/lnuo026"
           target="_blank"
           rel="noreferrer"

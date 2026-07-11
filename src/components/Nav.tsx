@@ -2,7 +2,6 @@ const links = [
   { href: '#about', label: 'About' },
   { href: '#projects', label: 'Projects' },
   { href: '#skills', label: 'Skills' },
-  { href: '/Nuona-Liang-CV.docx', label: 'Resume', external: true },
   { href: '#contact', label: 'Contact' },
 ];
 
