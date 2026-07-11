@@ -20,7 +20,6 @@ export default function Nav() {
             <li key={l.label}>
               <a
                 href={l.href}
-                {...(l.external ? { download: true } : {})}
                 className="whitespace-nowrap transition-colors hover:text-[var(--accent)]"
               >
                 {l.label}
