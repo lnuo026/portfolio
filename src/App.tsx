@@ -2,6 +2,7 @@ import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
+import Experience from './components/Experience';
 import Contact from './components/Contact';
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <Hero />
         <Projects />
         <Skills />
+        <Experience />
         <Contact />
       </main>
       <footer className="border-t border-[var(--border)] px-6 py-8 text-center text-xs text-[var(--text-muted)]">
