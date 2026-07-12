@@ -21,7 +21,7 @@ export default function Experience() {
           {[
             'Coordinated staff across the floor, tracked store performance, and handled vendor negotiations on lease and promotional terms.',
             'Executed seasonal marketing campaigns end-to-end — materials, scheduling, on-site delivery, and post-event results review — with campaign concepts agreed alongside the store manager.',
-            "Ran the company's WeChat community and online channels; wrote promotional copy, internal reports, and admin documents.",
+            "Managed the company's social media channels (WeChat, Xiaohongshu/RED) and online community; wrote promotional copy, internal reports, and admin documents.",
             'Worked closely with teams across departments to keep projects on track.',
           ].map((b) => (
             <li
