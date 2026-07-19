@@ -40,8 +40,8 @@ export const projects: Project[] = [
       'Google OAuth for cross-device sync; AI chat companion powered by Gemini.',
       'Solo build; in active daily development, tracked publicly on GitHub.',
     ],
-    link: 'https://github.com/lnuo026/virtual-puppy',
-    linkLabel: 'GitHub',
+    link: 'https://puppy.lnuo.me/',
+    linkLabel: 'Live',
   },
   {
     year: '2026',
