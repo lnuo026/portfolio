@@ -1,4 +1,5 @@
 import demoGif from '../assets/Demo.gif';
+import focusForgeDemoGif from '../assets/FocusForgeDemo.gif';
 
 export interface Project {
   year: string;
@@ -68,6 +69,8 @@ export const projects: Project[] = [
       'Deployed via Docker to AWS EC2 behind Nginx with HTTPS and GitHub Actions CI; collaborated in a 7-person team to complete the project, then independently reproduced the full CI/CD pipeline solo (GHCR, EC2 via SSM).',
     ],
     privateRepo: true,
+    image: focusForgeDemoGif,
+    imageAlt: 'Demo of the FocusForge 3D focus-training web app',
   },
   {
     year: '2026',
