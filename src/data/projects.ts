@@ -41,7 +41,7 @@ export const projects: Project[] = [
       'Solo build; in active daily development, tracked publicly on GitHub.',
     ],
     link: 'https://puppy.lnuo.me/',
-    linkLabel: 'Live',
+    linkLabel: 'https://puppy.lnuo.me/',
   },
   {
     year: '2026',
